@@ -1,23 +1,21 @@
-import { useState } from "react";
+import { useState } from 'react';
 
-export default function Addtask({ onAddTask }) {
-    const [text, settext] = useState('');
-
-    return(
-        <div>
-            <h1>Add task</h1>
-            <input
-                type="text"
-                value={text}
-                onChange={e => settext(e.target.value)}
-            />
-            <button onClick={() => settext('')}
-                    onAddTask={text}
-            >
-                Add
-            </button>
-            <p>{text}</p>
-
-        </div>
-    );
+export default function AddTask({onAddTask}) {
+  const [text, setText] = useState('');
+  return (
+    <>
+      <input
+        placeholder="Add task"
+        value={text}
+        onChange={(e) => setText(e.target.value)}
+      />
+      <button
+        onClick={() => {
+          setText('');
+          onAddTask(text);
+        }}>
+        Add
+      </button>
+    </>
+  );
 }
