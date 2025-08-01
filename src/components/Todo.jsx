@@ -74,7 +74,7 @@ function taskReducer(tasks, action) {
 
 let nextId = 3;
 const initialTasks = [
-  {id: 0, text: 'Visit Kafka Museum', done: true},
-  {id: 1, text: 'Watch a puppet show', done: false},
-  {id: 2, text: 'Lennon Wall pic', done: false},
+  {id: 0, text: 'Pay Electricity bills', done: true},
+  {id: 1, text: 'Read 10 pages of a book', done: false},
+  {id: 2, text: 'Water the Plants', done: false},
 ];
