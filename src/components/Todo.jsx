@@ -29,7 +29,7 @@ export default function Todo() {
 
     return (
         <div>
-            <h1>Add the Tasks</h1>
+            <h2>Add the Tasks</h2>
             <AddTask onAddTask={handleAddTask} />
             <TaskList
                 tasks={tasks}
