@@ -1,9 +1,11 @@
-import Todo from './components/Todo'
+import MovieList from './components/MovieList'
+// import Todo from './components/Todo'
 
 const App = () => {
   return (
     <div>
-      <Todo />
+      {/* <Todo /> */}
+      <MovieList />
     </div>
   )
 }

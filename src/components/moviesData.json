@@ -1,0 +1,38 @@
+
+[
+  {
+    "id": 1,
+    "title": "Kantara",
+    "budget": 16,
+    "boxOffice": 400,
+    "poster": "https://upload.wikimedia.org/wikipedia/en/9/9b/Kantara_film_poster.jpg"
+  },
+  {
+    "id": 2,
+    "title": "Paranormal Activity",
+    "budget": 0.015,
+    "boxOffice": 193,
+    "poster": "https://upload.wikimedia.org/wikipedia/en/d/df/Paranormal_Activity_poster.jpg"
+  },
+  {
+    "id": 3,
+    "title": "The Blair Witch Project",
+    "budget": 0.06,
+    "boxOffice": 248,
+    "poster": "https://upload.wikimedia.org/wikipedia/en/2/2c/Blair_Witch_Project.jpg"
+  },
+  {
+    "id": 4,
+    "title": "Slumdog Millionaire",
+    "budget": 15,
+    "boxOffice": 378,
+    "poster": "https://upload.wikimedia.org/wikipedia/en/5/52/Slumdog_Millionaire_poster.png"
+  },
+  {
+    "id": 5,
+    "title": "The Lunchbox",
+    "budget": 10,
+    "boxOffice": 100,
+    "poster": "https://upload.wikimedia.org/wikipedia/en/0/0b/The_Lunchbox_poster.jpg"
+  }
+]
