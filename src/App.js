@@ -1,12 +1,10 @@
 import React from 'react'
-import Increment from './Increment'
-import Addtask from './Addtask'
+import Increment from './components/Increment'
 
 const App = () => {
   return (
     <div>
       <Increment />
-      <Addtask />
     </div>
   )
 }
